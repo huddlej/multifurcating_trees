@@ -1,0 +1,10 @@
+name: multifurcations
+channels:
+  - defaults
+dependencies:
+  - cvxopt
+  - pandas
+  - python=3.6*
+  - seaborn
+  - pip:
+    - nextstrain-augur==3.1.5
